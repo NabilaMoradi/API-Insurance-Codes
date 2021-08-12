@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="990dc9f2-1294-489c-8284-7400d402f2b7" name="CreateAccount" type="rest_ex" wadlVersion="https://swagger.io/openapiv3/specification" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="990dc9f2-1294-489c-8284-7400d402f2b7fileName">CreateAccount</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart="CreateAccount.json">
+    <con:part>
+      <con:url>CreateAccount.json</con:url>
+      <con:content>{"openapi":"3.0.1","info":{"title":"CreateAccount","version":"1.0.0"},"servers":[{"url":"/"}],"paths":{"/api/v1/user/{id}":{"put":{"description":"","requestBody":{"content":{"application/json":{}}},"responses":{"default":{"description":"Default response"}}},"parameters":[{"name":"id","in":"path","required":true,"style":"simple","explode":false}]},"/api/v1/user{id}":{"post":{"requestBody":{"content":{"application/json":{}}},"responses":{"default":{"description":"Default response"}}},"parameters":[{"name":"id","in":"path","required":true,"style":"simple","explode":false}]}},"components":{"securitySchemes":{"Bearer Token":{"type":"oauth2","flows":{}}}}}</con:content>
+      <con:type>https://swagger.io/openapiv3/specification</con:type>
+    </con:part>
+  </con:definitionCache>
+  <con:endpoints/>
+</con:interface>
